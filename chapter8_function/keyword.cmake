@@ -46,7 +46,6 @@ twoLevelKeywordFunc(
     GRP2
         CHILD1 Lenovo
         CHILD2 HP
-
 )
 
 

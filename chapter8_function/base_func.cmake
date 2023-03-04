@@ -14,8 +14,6 @@ macro(macr arg)
     endif()
 endmacro()
 
-
-
 set(myArgu "myArgument")
 func(${myArgu})
 func(myArgu)
