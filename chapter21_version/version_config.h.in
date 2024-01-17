@@ -1,0 +1,7 @@
+#include <string>
+inline std::string getversionVersion() { return "@version_VERSION@"; }
+inline unsigned getversionVersionMajor() { return @version_VERSION_MAJOR@; }
+// + 0, so even if undefined, it is still 0 which is not an error
+inline unsigned getversionVersionMinor() { return @version_VERSION_MINOR@ +0; }
+inline unsigned getversionVersionPatch() { return @version_VERSION_PATCH@ +0; }
+inline unsigned getversionVersionTweak() { return @version_VERSION_TWEAK@ +0; }

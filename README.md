@@ -1,0 +1,1 @@
+Some codes written for understanding CMake whil reading book Professional CMake

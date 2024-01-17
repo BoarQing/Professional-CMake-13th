@@ -1,0 +1,1 @@
+void Print(const struct Point &pt);

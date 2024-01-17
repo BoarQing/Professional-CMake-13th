@@ -1,0 +1,2 @@
+int GetXDyna();
+int *GetXDynaAddress();

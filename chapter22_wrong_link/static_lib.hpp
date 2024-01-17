@@ -1,0 +1,2 @@
+int GetX();
+int *GetXAddress();

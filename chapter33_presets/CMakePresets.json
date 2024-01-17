@@ -1,0 +1,26 @@
+{
+    "version": 4,
+    "configurePresets": [
+        {
+            "name": "config_simple",
+            "generator": "Unix Makefiles",
+            "binaryDir": "./preset_build",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "./preset_install"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "build_base",
+            "configurePreset": "config_simple",
+            "configuration": "Release"
+        },
+        {
+            "name": "build_simple",
+            "inherits": "build_base"
+        }
+          
+    ]
+  }
+  
